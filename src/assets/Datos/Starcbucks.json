@@ -1,0 +1,50 @@
+[
+    {
+        "ID": 1,
+        "Name": "Starbucks",
+        "Lat": 22.1266248,
+        "Long": -101.0295844
+    },
+    {
+        "ID": 2,
+        "Name": "Starbucks Plaza Divina",
+        "Lat": 22.1493578,
+        "Long": -101.0054284
+    },
+    {
+        "ID": 3,
+        "Name": "Starbucks Carretera 57 Norte SLP DT",
+        "Lat": 22.1113046,
+        "Long": -100.8964334
+    },
+    {
+        "ID": 4,
+        "Name": "Starbucks Lomas SLP",
+        "Lat": 22.1430588,
+        "Long": -101.0222881
+    },
+    {
+        "ID": 5,
+        "Name": "Starbucks Himalaya",
+        "Lat": 22.1412553,
+        "Long": -101.031772
+    },
+    {
+        "ID": 6,
+        "Name": "Starbucks El Dorado SLP",
+        "Lat": 22.1548825,
+        "Long": -101.0060625
+    },
+    {
+        "ID": 7,
+        "Name": "Starbucks Carretera 57 SLP Sur DT",
+        "Lat": 22.1361677,
+        "Long": -100.9356019
+    },
+    {
+        "ID": 8,
+        "Name": "Starbucks",
+        "Lat": 22.1180119,
+        "Long": -101.0061409
+    }
+]
