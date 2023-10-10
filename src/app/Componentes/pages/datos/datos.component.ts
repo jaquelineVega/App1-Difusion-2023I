@@ -1,5 +1,5 @@
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {ServicioService} from '../../../../servicio.service';
 import { Router } from '@angular/router';
@@ -14,11 +14,11 @@ export class DatosComponent {
 
   CafeteriasList: any[]=[];
   constructor(private SVC:ServicioService, private router:Router){
-    this.SVC.get().subscribe((result:any)=>{
+   this.SVC.get().subscribe((result:any)=>{
       this.CafeteriasList=result
     })
-  
+ 
 
   }
-  ngOnInit():void{}
+  
 }

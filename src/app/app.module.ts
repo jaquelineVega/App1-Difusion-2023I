@@ -9,7 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { GaleriaComponent } from './Componentes/pages/galeria/galeria.component';
 import { DatosComponent } from './Componentes/pages/datos/datos.component';
 import { MapasComponent } from './component/mapas/mapas.component';
-import { PictureComponent } from './picture/picture.component';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,12 @@ import { PictureComponent } from './picture/picture.component';
     FooterComponent,
     GaleriaComponent,
     DatosComponent,
-    MapasComponent,
-    PictureComponent
+    MapasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
