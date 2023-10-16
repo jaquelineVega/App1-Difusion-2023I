@@ -4,12 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import {InicioComponent} from './Componentes/pages/inicio/inicio.component';
 import {GaleriaComponent} from './Componentes/pages/galeria/galeria.component';
 import {DatosComponent} from './Componentes/pages/datos/datos.component'
-
+import{DetallerComponent} from './Componentes/pages/datos/detaller/detaller.component'
             const routes: Routes = [
               {path:'Inicio',component:InicioComponent},
               {path:'Galeria',component:GaleriaComponent},
               {path:'Datos', component:DatosComponent},
-              {path:'**',component:InicioComponent},
+              {path:'Detalle/Id', component:DetallerComponent},
+              {path:'**',component:InicioComponent}
             ]
 
                 @NgModule({

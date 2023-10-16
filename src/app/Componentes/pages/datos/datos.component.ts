@@ -17,8 +17,12 @@ export class DatosComponent {
    this.SVC.get().subscribe((result:any)=>{
       this.CafeteriasList=result
     })
- 
 
   }
+  Detalle(Id:String){
+    this.router.navigate(['Id',Id]);
+    console.log(Id)
+  }
+ 
   
 }
